@@ -1,6 +1,7 @@
 body {
   background-color: #F7F7F7;
   font-family: 'Abel', sans-serif;
+  font-size: 14px;
 }
 
 a {
@@ -151,4 +152,49 @@ a:hover {
 
 .bigFeature-title {
   font-size: 30px;
+}
+
+/*CONTENT PAGE*/
+.content-box {
+  width: 740px;
+  text-align: center;
+}
+.content-title {
+  font-size: 36px;
+  display: inline;
+  background-image: linear-gradient(to bottom,transparent 0,#50e3c2 0);
+  background-repeat: no-repeat;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  background-size: 100% 1em;
+  background-position: 0 center;
+  line-height: 1.2;
+  font-family: 'Lusitana', serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title-box {
+  margin-bottom: -20px;
+  position: relative;
+}
+
+.content-box img {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.content-box section {
+  margin: 0 auto;
+  font-size: 18px;
+  width: 80%;
+  text-align: left;
+}
+
+.content-box p {
+  margin-bottom: 30px;
+}
+
+.content-box span.feature-author {
+  font-weight: bold;
 }

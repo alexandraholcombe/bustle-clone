@@ -1,8 +1,16 @@
-<h2>{{model.title}}</h2>
-<img src={{model.image}} alt={{model.title}} />
+<div class="container">
+  <div class="content-box">
+    <div class="title-box">
+      <h2 class="content-title">{{model.title}}</h2>
+    </div>
+    <img src={{model.image}} alt={{model.title}} />
 
-<p>{{model.author}}</p>
 
-<section>
-  {{model.text}}
-</section>
+
+    <section class="text-content">
+    <p>By <span class="feature-author"><a href="#">{{model.author}}</a></span></p>
+
+      {{model.text}}
+    </section>
+  </div>
+</div>
