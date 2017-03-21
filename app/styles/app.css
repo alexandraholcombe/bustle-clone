@@ -1,5 +1,14 @@
+body {
+  background-color: #F7F7F7;
+}
+
+.container {
+  width: 910px;
+}
+
 /*NAVBAR*/
 .navbar {
+  background-color: white;
   height: 60px;
   border-radius: 0px;
   width: 100%;
@@ -48,8 +57,15 @@
 }
 
 /*FEATURES*/
+.feature-container {
+/*border: 2px solid green;*/
+}
 .feature-block {
+  /*border: 2px solid blue;*/
   width: 282px;
+  display: inline-block;
+  float: left;
+  margin: 5px;
   /*height: 272px;*/
 }
 
@@ -58,10 +74,18 @@
   height: 190px;
 }
 
+.feature-image img{
+  max-width: 100%;
+}
+
 .feature-text {
+  position: relative;
   background-color: white;
   width: 254px;
   height: 101px;
   padding: 15px 10px;
-  margin: -19px auto 0 auto;
+  margin-top: -19px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
