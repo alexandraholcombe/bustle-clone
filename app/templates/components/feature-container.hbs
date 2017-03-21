@@ -1,5 +1,5 @@
 <div class="feature-container">
-  {{#each model as |content|}}
-    {{feature-tile content=content}}
+  {{#each model.feature as |feature|}}
+    {{feature-tile feature=feature}}
   {{/each}}
 </div>

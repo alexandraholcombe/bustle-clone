@@ -1,1 +1,13 @@
-{{yield}}
+<div class="bigFeature-block">
+  {{#link-to 'content' model.bigFeature.firstObject.id}}
+  <div class="bigFeature-image">
+    <img src={{model.bigFeature.firstObject.image}} alt={{model.bigFeature.firstObject.title}} />
+  </div>
+  <div class="bigFeature-text">
+    <p class="bigFeature-title">{{model.bigFeature.firstObject.title}}</p>
+    <p>
+      By <span class="feature-author">{{model.bigFeature.firstObject.author}}</span>
+    </p>
+  </div>
+  {{/link-to}}
+</div>
