@@ -1,3 +1,4 @@
+/*NAVBAR*/
 .navbar {
   height: 60px;
   border-radius: 0px;
@@ -46,6 +47,21 @@
   margin-top: 5px;
 }
 
-.pull-left {
+/*FEATURES*/
+.feature-block {
+  width: 282px;
+  /*height: 272px;*/
+}
 
+.feature-image {
+  width: 282px;
+  height: 190px;
+}
+
+.feature-text {
+  background-color: white;
+  width: 254px;
+  height: 101px;
+  padding: 15px 10px;
+  margin: -19px auto 0 auto;
 }
