@@ -1,11 +1,13 @@
 <div class="feature-block">
+  {{#link-to 'content' content.id}}
   <div class="feature-image">
     <img src={{content.image}} alt={{content.title}} />
   </div>
   <div class="feature-text">
-    <p>{{content.title}}</p>
+    <p class="feature-title">{{content.title}}</p>
     <p>
-      By {{content.author}}
+      By <span class="feature-author">{{content.author}}</span>
     </p>
   </div>
+  {{/link-to}}
 </div>
